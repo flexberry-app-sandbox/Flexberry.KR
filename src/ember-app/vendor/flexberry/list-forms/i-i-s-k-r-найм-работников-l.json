@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-k-r-найм-работников-e",
+  "editForm": "i-i-s-k-r-найм-работников-e",
+  "external": false,
+  "caption": "Найм работников",
+  "name": "IISKRНаймРаботниковL",
+  "className": "НаймРаботниковL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r-найм-работников",
+      "modelProjection": "НаймРаботниковL"
+    }
+  ]
+}

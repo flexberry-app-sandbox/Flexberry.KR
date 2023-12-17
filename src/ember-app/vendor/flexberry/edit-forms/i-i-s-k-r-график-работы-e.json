@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "График.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-k-r-график"
+    }
+  ],
+  "external": false,
+  "caption": "График работы",
+  "name": "IISKRГрафикРаботыE",
+  "className": "ГрафикРаботыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r-график-работы",
+      "modelProjection": "ГрафикРаботыE"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Вакансии",
+  "name": "IISKRВакансииE",
+  "className": "ВакансииE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r-вакансии",
+      "modelProjection": "ВакансииE"
+    }
+  ]
+}

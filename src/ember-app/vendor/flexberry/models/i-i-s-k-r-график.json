@@ -1,0 +1,113 @@
+﻿{
+  "name": "IISKRГрафик",
+  "modelName": "i-i-s-k-r-график",
+  "className": "График",
+  "nameSpace": "IIS.KR",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "видДеятельности",
+      "type": "i-i-s-k-r-деятельность",
+      "flexberryType": "Деятельность",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "часы",
+      "type": "i-i-s-k-r-колво-часов",
+      "flexberryType": "КолвоЧасов",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-k-r-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "графикРаботы",
+      "relatedTo": "i-i-s-k-r-график-работы",
+      "inverse": "график"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ГрафикE",
+      "modelName": "i-i-s-k-r-график",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "видДеятельности",
+          "caption": "Вид деятельности",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "часы",
+          "caption": "Часы",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "должность",
+              "caption": "Должность",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-k-r-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

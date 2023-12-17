@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Вакансии",
+      "projection": "ВакансииL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Найм работников",
+  "name": "IISKRНаймРаботниковE",
+  "className": "НаймРаботниковE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r-найм-работников",
+      "modelProjection": "НаймРаботниковE"
+    }
+  ]
+}

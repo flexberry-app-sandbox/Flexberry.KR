@@ -1,0 +1,51 @@
+﻿{
+  "applicationCaption": "KR",
+  "applicationTitle": "KR",
+  "items": [
+    {
+      "link": null,
+      "menuName": "график-для-сотрудников",
+      "caption": "График для сотрудников",
+      "title": "График для сотрудников",
+      "children": [
+        {
+          "link": "i-i-s-k-r-график-работы-l",
+          "menuName": null,
+          "caption": "График работы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "найм-работников",
+      "caption": "Найм работников",
+      "title": "Найм работников",
+      "children": [
+        {
+          "link": "i-i-s-k-r-найм-работников-l",
+          "menuName": null,
+          "caption": "Найм работников",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r-вакансии-l",
+          "menuName": null,
+          "caption": "Вакансии",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

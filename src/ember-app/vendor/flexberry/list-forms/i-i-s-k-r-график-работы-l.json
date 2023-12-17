@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-k-r-график-работы-e",
+  "editForm": "i-i-s-k-r-график-работы-e",
+  "external": false,
+  "caption": "График работы",
+  "name": "IISKRГрафикРаботыL",
+  "className": "ГрафикРаботыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r-график-работы",
+      "modelProjection": "ГрафикРаботыL"
+    }
+  ]
+}
